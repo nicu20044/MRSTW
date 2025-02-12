@@ -3,6 +3,59 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Gabi Nicu și Stefanini is the best in ze world dfsdsfdssdf</h2>
-<h2>Edkiasfjiasjjdasjd</h2>
+@{
+	ViewData["Title"] = "Beats Store";
+}
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>@ViewData["Title"]</title>
+	<link rel="stylesheet" href="~/wwwroot/css/styles.css">
+	<script defer src="~/wwwroot/js/script.js"></script>
+</head>
+<body>
+<header>
+	<div class="logo">Beats Store</div>
+	<nav>
+		<ul>
+			<li><a href="#popular">Popular</a></li>
+			<li><a href="#recommended">Recommended</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+    
+<section class="hero">
+	<div class="hero-content">
+		<h1>Feel the Beat</h1>
+		<p>Discover and purchase high-quality beats from top producers.</p>
+		<a href="#popular" class="cta-button">Explore Beats</a>
+	</div>
+</section>
+    
+<section id="popular" class="beats-grid">
+	<h2>Popular Beats</h2>
+	<div class="beat-list">
+		<div class="beat-card">
+			<div class="visualizer"></div>
+			<audio controls><source src="~/audio/beat1.mp3" type="audio/mpeg"></audio>
+		</div>
+		<div class="beat-card">
+			<div class="visualizer"></div>
+			<audio controls><source src="~/audio/beat2.mp3" type="audio/mpeg"></audio>
+		</div>
+		<div class="beat-card">
+			<div class="visualizer"></div>
+			<audio controls><source src="~/audio/beat3.mp3" type="audio/mpeg"></audio>
+		</div>
+	</div>
+</section>
+    
+<footer>
+	<p>&copy; 2025 Beats Store. All rights reserved.</p>
+</footer>
+</body>
+</html>
