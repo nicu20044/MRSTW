@@ -6,12 +6,43 @@ using System.Web.Mvc;
 
 namespace MusicStore.web.Controllers
 {
-    public class AuthController : Controller
+    using System.Web.Mvc;
+    namespace MusicStore.web.Controllers
     {
-        // GET: Auth
-        public ActionResult Index()
+        public class AuthController : Controller
         {
-            return View();
+            public ActionResult Login()
+            {
+                var model = new LoginViewModel();
+                return View(model);
+            }
+
+
+            [HttpPost]
+            public ActionResult Login(LoginViewModel model)
+            {
+                if (ModelState.IsValid)
+                {
+                    if (model.Username == "admin" && model.Password == "admin")
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
+
+                    ModelState.AddModelError("", "Invalid username or password.");
+                }
+
+                return View(model);
+            }
+
+            public class LoginViewModel
+            {
+                public string Username { get; set; }
+                public string Password { get; set; }
+                public string ErrorMessage { get; set; }
+            }
+
+
+
         }
     }
 }
