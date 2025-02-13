@@ -9,7 +9,12 @@ namespace MusicStore.web.Controllers
     public class ShoppingCartController : Controller
     {
         // GET: ShoppingCart
-        public ActionResult Index()
+        public ActionResult ShoppingCart()
+        {
+            return View();
+        }
+
+        public ActionResult PaymentPage()
         {
             return View();
         }
