@@ -1,7 +1,146 @@
-﻿
-@{
-    ViewBag.Title = "Register";
+﻿@{
+    ViewData["Title"] = "Register";
 }
 
-<h2>This is the Register page</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .register-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .register-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .form-group {
+            position: relative;
+            margin-bottom: 15px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            outline: none;
+        }
+        .form-group label {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 14px;
+            color: #888;
+            transition: all 0.3s ease;
+        }
+        .form-group input:focus + label, .form-group input:not(:placeholder-shown) + label {
+            top: -10px;
+            left: 5px;
+            font-size: 12px;
+            color: #555;
+        }
+        .password-toggle {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            cursor: pointer;
+        }
+        .register-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .register-btn:hover {
+            background-color: #218838;
+        }
+        .login-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .password-strength {
+            margin-top: 5px;
+            font-size: 12px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="register-container">
+    <div class="register-box">
+        <h2>Create Account</h2>
+        <form id="registerForm" asp-controller="Auth" asp-action="Register" method="post">
+            <div class="form-group">
+                <input type="text" id="username" name="Username" required>
+                <label for="username">Username</label>
+            </div>
 
+            <div class="form-group">
+                <input type="email" id="email" name="Email" required>
+                <label for="email">Email</label>
+            </div>
+
+            <div class="form-group">
+                <input type="password" id="password" name="Password" required>
+                <label for="password">Password</label>
+                <span class="password-toggle" onclick="togglePassword()">👁️</span>
+            </div>
+
+            <div class="form-group">
+                <input type="password" id="confirmPassword" name="ConfirmPassword" required>
+                <label for="confirmPassword">Confirm Password</label>
+            </div>
+
+            <div id="password-strength" class="password-strength"></div>
+
+            <button type="submit" class="register-btn">Create Account</button>
+
+            <div class="login-link">
+                Already have an account? <a asp-controller="Auth" asp-action="Login">Login here</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    function togglePassword() {
+        var passwordField = document.getElementById("password");
+        if (passwordField.type === "password") {
+            passwordField.type = "text";
+        } else {
+            passwordField.type = "password";
+        }
+    }
+
+    document.getElementById("password").addEventListener("input", function() {
+        var password = this.value;
+        var strengthText = "Weak";
+        if (password.length >= 8 && /[A-Z]/.test(password) && /[0-9]/.test(password)) {
+            strengthText = "Strong";
+        } else if (password.length >= 6) {
+            strengthText = "Medium";
+        }
+        document.getElementById("password-strength").textContent = "Password strength: " + strengthText;
+    });
+</script>
+</body>
+</html>
