@@ -112,7 +112,7 @@
     <Content Include="Views\Home\AboutUs.cshtml" />
     <Content Include="Views\Auth\Login.cshtml" />
     <Content Include="Views\Auth\Register.cshtml" />
-    <Content Include="Views\ShoppingCart\ShopingCart.cshtml" />
+    <Content Include="Views\ShoppingCart\ShoppingCart.cshtml" />
     <Content Include="Views\ShoppingCart\PaymentPage.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
