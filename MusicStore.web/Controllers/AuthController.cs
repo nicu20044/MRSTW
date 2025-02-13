@@ -26,8 +26,8 @@ namespace MusicStore.web.Controllers
                     return RedirectToAction("Index", "Home");
                 }
 
-                ModelState.AddModelError("Username", "Invalid username or password.");
-                ModelState.AddModelError("Password", "Invalid username or password.");
+                ModelState.AddModelError("Username", "Invalid username.");
+                ModelState.AddModelError("Password", "Invalid password.");
             }
 
             return View(model);
