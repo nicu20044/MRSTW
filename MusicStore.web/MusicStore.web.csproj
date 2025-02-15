@@ -90,6 +90,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
+    <Content Include="wwwroot\css\register_page.css" />
     <Content Include="wwwroot\css\styles.css" />
     <Content Include="wwwroot\js\script.js" />
   </ItemGroup>
