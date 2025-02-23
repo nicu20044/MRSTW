@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrare Beat-uri</title>
+    <link rel="stylesheet" href="/wwwroot/css/adminstyle.css">
+</head>
+<body>
+<h2>Administrare Beat-uri</h2>
+
+<h3>Adaugă Beat</h3>
+<form id="addBeatForm">
+    <input type="text" name="title" placeholder="Titlu" required>
+    <input type="text" name="artist" placeholder="Artist" required>
+    <input type="text" name="genre" placeholder="Gen" required>
+    <input type="number" name="price" placeholder="Preț" required step="0.01">
+    <button type="submit">Adaugă Beat</button>
+</form>
+
+<h3>Lista Beat-uri</h3>
+<table id="beatsTable">
+    <thead>
+    <tr>
+        <th>Titlu</th>
+        <th>Artist</th>
+        <th>Gen</th>
+        <th>Preț</th>
+        <th>Acțiuni</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Aici ar trebui să fie populate dinamic -->
+    </tbody>
+</table>
+
+<script src="/wwwroot/js/admin.js"></script>
+</body>
