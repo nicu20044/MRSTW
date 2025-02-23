@@ -1,61 +1,79 @@
-﻿
-@{
-    ViewBag.Title = "Index";
+﻿@{
+    ViewData["Title"] = "Home Page";
 }
 
-@{
-	ViewData["Title"] = "Beats Store";
-}
+<div class="hero-section">
+    <div class="featured-track">
+        <span class="featured-label">FEATURED TRACK</span>
+        <h1 class="track-title">Track Title</h1>
+        <p class="artist-name">Artist Name</p>
+        <div class="track-actions">
+            <button class="btn btn-primary">
+                <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
+                    <path d="M8 5v14l11-7z" fill="currentColor"/>
+                </svg>
+                Play Now
+            </button>
+            <button class="btn btn-outline">
+                <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
+                    <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="currentColor"/>
+                </svg>
+                Add to Library
+            </button>
+        </div>
+    </div>
+</div>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>@ViewData["Title"]</title>
-	<link rel="stylesheet" href="~/wwwroot/css/styles.css">
-	<script defer src="~/wwwroot/js/script.js"></script>
-</head>
-<body>
-<header>
-	<div class="logo">Beats Store</div>
-	<nav>
-		<ul>
-			<li><a href="#popular">Popular</a></li>
-			<li><a href="#recommended">Recommended</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-	</nav>
-</header>
-    
-<section class="hero">
-	<div class="hero-content">
-		<h1>Feel the Beat</h1>
-		<p>Discover and purchase high-quality beats from top producers.</p>
-		<a href="#popular" class="cta-button">Explore Beats</a>
-	</div>
-</section>
-    
-<section id="popular" class="beats-grid">
-	<h2>Popular Beats</h2>
-	<div class="beat-list">
-		<div class="beat-card">
-			<div class="visualizer"></div>
-			<audio controls><source src="~/audio/beat1.mp3" type="audio/mpeg"></audio>
-		</div>
-		<div class="beat-card">
-			<div class="visualizer"></div>
-			<audio controls><source src="~/audio/beat2.mp3" type="audio/mpeg"></audio>
-		</div>
-		<div class="beat-card">
-			<div class="visualizer"></div>
-			<audio controls><source src="~/audio/beat3.mp3" type="audio/mpeg"></audio>
-		</div>
-	</div>
-</section>
-    
-<footer>
-	<p>&copy; 2025 Beats Store. All rights reserved.</p>
-</footer>
-</body>
-</html>
+<div class="container">
+    <section class="tracks-section">
+        <div class="section-header">
+            <h2>Popular Tracks</h2>
+            <a href="/popular" class="view-all">View All</a>
+        </div>
+        <div class="tracks-grid">
+            @for (int i = 0; i < 5; i++)
+            {
+                <div class="track-card">
+                    <div class="track-image">
+                        <img src="/images/placeholder.jpg" alt="Track artwork">
+                        <button class="play-button">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M8 5v14l11-7z" fill="currentColor"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="track-info">
+                        <h3>Track Name</h3>
+                        <p>Artist Name</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+
+    <section class="tracks-section">
+        <div class="section-header">
+            <h2>New Releases</h2>
+            <a href="/new" class="view-all">View All</a>
+        </div>
+        <div class="tracks-grid">
+            @for (int i = 0; i < 5; i++)
+            {
+                <div class="track-card">
+                    <div class="track-image">
+                        <img src="/images/placeholder.jpg" alt="Track artwork">
+                        <button class="play-button">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M8 5v14l11-7z" fill="currentColor"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="track-info">
+                        <h3>Track Name</h3>
+                        <p>Artist Name</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+</div>

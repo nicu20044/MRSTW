@@ -89,14 +89,23 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Views\Library\Library.cshtml" />
     <Content Include="Web.config" />
+    <Content Include="wwwroot\css\auth.css" />
+    <Content Include="wwwroot\css\library.css" />
+    <Content Include="wwwroot\css\payment-page.css" />
+    <Content Include="wwwroot\css\shopping-cart.css" />
+    <Content Include="wwwroot\css\site.css" />
     <Content Include="wwwroot\css\styles.css" />
-    <Content Include="wwwroot\js\script.js" />
+    <Content Include="wwwroot\js\payment_page.js" />
+    <Content Include="wwwroot\js\shopping_cart.js" />
+    <Content Include="wwwroot\js\site.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LibraryController.cs" />
+    <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\ShoppingCartController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -123,6 +132,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="ClientApp\src\components\" />
+    <Folder Include="ClientApp\src\pages\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

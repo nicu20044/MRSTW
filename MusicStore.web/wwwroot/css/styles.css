@@ -1,4 +1,4 @@
-﻿/* Resetare pentru marginile implicite ale browserului */
+﻿
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #1a1a1a; /* Fundal închis pentru întreaga pagină */
+    background-color: #1a1a1a; 
     color: white;
     height: 100vh;
     display: flex;
@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.6); /* Fundal semitransparent pentru header */
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .logo {
@@ -45,7 +45,7 @@ nav ul {
         }
 
             nav ul li a:hover {
-                color: #00ff00; /* Culoare verde lime la hover */
+                color: #00ff00;
             }
 
 .hero {
@@ -54,8 +54,8 @@ nav ul {
     align-items: center;
     height: 80vh;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.6); /* Overlay semitransparent pentru secțiunea hero */
-    backdrop-filter: blur(5px); /* Efect de blur pe fundal */
+    background-color: rgba(0, 0, 0, 0.6); 
+    backdrop-filter: blur(5px); 
 }
 
     .hero h1 {
@@ -71,7 +71,7 @@ nav ul {
 .cta-button {
     padding: 15px 30px;
     font-size: 1.2rem;
-    background-color: #00ff00; /* Buton verde lime */
+    background-color: #00ff00;
     color: black;
     text-decoration: none;
     border-radius: 5px;
@@ -79,7 +79,7 @@ nav ul {
 }
 
     .cta-button:hover {
-        background-color: #008000; /* Culoare mai închisă la hover */
+        background-color: #008000; 
     }
 
 .beats-grid {
