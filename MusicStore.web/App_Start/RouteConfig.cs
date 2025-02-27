@@ -36,6 +36,11 @@ namespace MusicStore.web
                 defaults: new { controller = "Library", action = "Library" }
             );
 
+            routes.MapRoute(
+           name: "Admin",
+           url: "Admin/{action}/{id}",
+           defaults: new { controller = "Admin", action = "AdminDashboard", id = UrlParameter.Optional }
+       );
         }
     }
 }

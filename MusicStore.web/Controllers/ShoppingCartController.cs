@@ -18,10 +18,5 @@ namespace MusicStore.web.Controllers
         {
             return View();
         }
-
-        public ActionResult PaymentPage()
-        {
-            return View();
-        }
     }
 }

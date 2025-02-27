@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "ManageUsers";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Users</title>
+    <link rel="stylesheet" href="Admin.css">
+</head>
+<body>
+
+    <nav>
+        <a href="Admin" class="nav-btn">Dashboard</a>
+    </nav>
+
+    <div class="container">
+        <h2>Manage Users</h2>
+        <table>
+            <tr>
+                <th>Username</th>
+                <th>Role</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td>user</td>
+                <td>
+                    <select class="role-select">
+                        <option>Admin</option>
+                        <option selected>User</option>
+                    </select>
+                </td>
+                <td><button class="delete-btn">Delete</button></td>
+            </tr>
+            <tr>
+                <td>admin</td>
+                <td>
+                    <select class="role-select">
+                        <option selected>Admin</option>
+                        <option>User</option>
+                    </select>
+                </td>
+                <td><button class="delete-btn">Delete</button></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
+
+
