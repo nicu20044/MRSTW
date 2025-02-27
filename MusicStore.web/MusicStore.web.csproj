@@ -95,13 +95,24 @@
     <Content Include="wwwroot\css\auth.css" />
     <Content Include="wwwroot\css\library.css" />
     <Content Include="wwwroot\css\payment-page.css" />
+    <Content Include="wwwroot\css\productpage.css" />
     <Content Include="wwwroot\css\shopping-cart.css" />
     <Content Include="wwwroot\css\site.css" />
     <Content Include="wwwroot\css\styles.css" />
+    <Content Include="wwwroot\images\mute.png" />
+    <Content Include="wwwroot\images\pause.png" />
+    <Content Include="wwwroot\images\play.png" />
+    <Content Include="wwwroot\images\stop.png" />
+    <Content Include="wwwroot\images\test.jpg" />
+    <Content Include="wwwroot\images\volume.png" />
     <Content Include="wwwroot\js\Admin.js" />
     <Content Include="wwwroot\js\payment_page.js" />
+    <Content Include="wwwroot\js\product_Page.js" />
     <Content Include="wwwroot\js\shopping_cart.js" />
     <Content Include="wwwroot\js\site.js" />
+    <Content Include="wwwroot\Music\black.mp3" />
+    <Content Include="wwwroot\Music\Ce.mp3" />
+    <Content Include="wwwroot\Music\white.mp3" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -109,6 +120,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LibraryController.cs" />
     <Compile Include="Controllers\AuthController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ShoppingCartController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -124,11 +136,15 @@
     <Content Include="Views\Home\AboutUs.cshtml" />
     <Content Include="Views\Auth\Login.cshtml" />
     <Content Include="Views\Auth\Register.cshtml" />
-    <Content Include="Views\ShoppingCart\ShoppingCart.cshtml" />
+    <Content Include="Views\ShoppingCart\Subscribtion.cshtml" />
     <Content Include="Views\ShoppingCart\PaymentPage.cshtml" />
     <Content Include="Views\Admin\Admin.cshtml" />
     <Content Include="Views\Admin\ManageUsers.cshtml" />
     <Content Include="Views\Admin\ManageContent.cshtml" />
+    <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\Shared\_Header.cshtml" />
+    <Content Include="Views\Product\ProductPage.cshtml" />
+    <Content Include="Views\ShoppingCart\ShoppingCart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

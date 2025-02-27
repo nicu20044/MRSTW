@@ -8,41 +8,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
 </head>
 <body>
-    <header class="bg-dark text-white p-3">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand text-white" href="@Url.Action("Index", "Home")">Harmonia</a>
-            <nav>
-                <ul class="nav">
-                    
-                    <li class="nav-item"><a class="nav-link text-white" href="@Url.Action("Library", "Library")">Library</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="@Url.Action("ShoppingCart", "ShoppingCart")">Plans</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="@Url.Action("About", "Home")">About</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="@Url.Action("Contact", "Home")">Contact</a></li>
-                </ul>
-            </nav>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search tracks, artists..." aria-label="Search">
-            </form>
-            <div>
-                <a class="btn btn-outline-light me-2" href="@Url.Action("Login", "Auth")">Login</a>
-                <a class="btn btn-success" href="@Url.Action("Register", "Auth")">Sign Up</a>
-            </div>
-        </div>
-    </header>
+   @Html.Partial("_Header")
     
     <main role="main" class="container mt-4">
         @RenderBody()
     </main>
 
-    <footer class="bg-dark text-white text-center p-3 mt-5">
-        <div class="container">
-            <p>&copy; @DateTime.Now.Year - My Music App. All rights reserved.</p>
-            <a class="text-white me-2" href="@Url.Action("Privacy", "Home")">Privacy Policy</a>
-            <a class="text-white" href="@Url.Action("Terms", "Home")">Terms of Service</a>
-        </div>
-    </footer>
+    @Html.Partial("_Footer")
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
     @RenderSection("Scripts", required: false)
 </body>
 </html>

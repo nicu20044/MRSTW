@@ -18,5 +18,10 @@ namespace MusicStore.web.Controllers
         {
             return View();
         }
+
+        public ActionResult Subscribtion()
+        {
+            return View();
+        }
     }
 }
