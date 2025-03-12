@@ -8,16 +8,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa2f2ae3-8905-4cfb-8778-7a9edc94b0f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MusicStore.web/wwwroot/css/aaa.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicStore.BussinesLogic/BussinesLogic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicStore.BussinesLogic/Core/UserArtist/ArtistApi.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicStore.BussinesLogic/Interfaces/IProduct.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicStore.BussinesLogic/MusicStore.BussinesLogic.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicStore.BussinesLogic/ProductBL.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicStore.Domain/Entities/Enums/PLicense.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicStore.Domain/Entities/Product/ProductData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MusicStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MusicStore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicStore.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicStore.web/Controllers/LibraryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/Controllers/LibraryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicStore.web/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/Controllers/ProductController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MusicStore.web/MusicStore.web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/MusicStore.web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/Views/Home/AboutUs.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/Views/Home/AboutUs.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/bin/MusicStore.web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/bin/MusicStore.web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/bin/MusicStore.web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/bin/MusicStore.web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicStore.web/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +39,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -43,12 +52,40 @@
     &quot;assignee&quot;: &quot;stefangalit21&quot;
   }
 }</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="BusinessLogic" />
+                    <option name="lastUsedInstant" value="1741800121" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1741800120" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/nicu20044/MRSTW.git&quot;,
     &quot;accountId&quot;: &quot;11f33398-388f-47cb-a2ab-1e3de48d68c0&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MusicStore.BussinesLogic/BussinesLogic.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -64,7 +101,7 @@
     &quot;.NET Project.MusicStore.web - IIS Express.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;BusinessLogic&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
@@ -103,6 +140,10 @@
       <workItem from="1740731738930" duration="483000" />
       <workItem from="1740746478760" duration="244000" />
       <workItem from="1741270958892" duration="1260000" />
+      <workItem from="1741720432398" duration="296000" />
+      <workItem from="1741720766415" duration="3735000" />
+      <workItem from="1741800058847" duration="931000" />
+      <workItem from="1741801010222" duration="5459000" />
     </task>
     <servers />
   </component>

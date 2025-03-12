@@ -158,6 +158,16 @@
     <Folder Include="ClientApp\src\pages\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MusicStore.BussinesLogic\MusicStore.BussinesLogic.csproj">
+      <Project>{f90d1063-9bbe-452e-97c5-786306c3db7c}</Project>
+      <Name>MusicStore.BussinesLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MusicStore.Domain\MusicStore.Domain.csproj">
+      <Project>{5c5681b7-9076-4237-8624-ccce59679880}</Project>
+      <Name>MusicStore.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
