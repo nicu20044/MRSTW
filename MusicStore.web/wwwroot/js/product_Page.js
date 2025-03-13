@@ -21,7 +21,7 @@
     var volumeBtn = document.getElementById("volumeBtn");
     var volumeSlider = document.getElementById("volumeSlider");
 
-    wavesurfer.load('/wwwroot/Music/white.mp3');
+    wavesurfer.load('/wwwroot/Music/black.mp3');
 
     playBtn.onclick = function() {
         wavesurfer.playPause();

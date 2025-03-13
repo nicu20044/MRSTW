@@ -214,3 +214,7 @@ D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MRSTW\MusicStore.web\obj
 D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MRSTW\MusicStore.web\obj\Debug\MusicSto.3AFA109E.Up2Date
 D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MRSTW\MusicStore.web\obj\Debug\MusicStore.web.dll
 D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MRSTW\MusicStore.web\obj\Debug\MusicStore.web.pdb
+C:\Users\Administrator\Documents\GitHub\MRSTW\MusicStore.web\bin\MusicStore.BussinesLogic.dll
+C:\Users\Administrator\Documents\GitHub\MRSTW\MusicStore.web\bin\MusicStore.Domain.dll
+C:\Users\Administrator\Documents\GitHub\MRSTW\MusicStore.web\bin\MusicStore.BussinesLogic.pdb
+C:\Users\Administrator\Documents\GitHub\MRSTW\MusicStore.web\bin\MusicStore.Domain.pdb

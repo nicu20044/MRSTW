@@ -9,14 +9,12 @@ namespace MusicStore.web.Controllers
         private readonly IProduct _product;
         public LibraryController()
         {
-            var bl = new BussinesLogic();
-            _product = bl.GetProductBL();
+            var bl = new BusinessLogic.BusinessLogic();
+            _product = bl.GetProductBl();
         }
         // GET
         public ActionResult Library()
         {
-           
-            
             return View();
         }
     }

@@ -41,6 +41,10 @@
     <ItemGroup>
         <Compile Include="BussinesLogic.cs" />
         <Compile Include="Core\UserArtist\ArtistApi.cs" />
+        <Compile Include="Data\AppDbContext.cs" />
+        <Compile Include="Data\Repositories\Interfaces\IGenericRepository.cs" />
+        <Compile Include="Data\Repositories\Interfaces\IProductRepository.cs" />
+        <Compile Include="Data\Repositories\ProductRepository.cs" />
         <Compile Include="Interfaces\IProduct.cs" />
         <Compile Include="ProductBL.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>

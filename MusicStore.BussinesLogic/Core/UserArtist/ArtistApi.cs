@@ -1,90 +1,125 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using MusicStore.BusinessLogic.Data;
 using MusicStore.Domain.Entities.Product;
 
 namespace MusicStore.BusinessLogic.Core.UserArtist
 {
     public class ArtistApi
     {
-        private List<ProductData> _products = new List<ProductData>();
-        
-        
+        private readonly IProductRepository _productRepository;
+
+        public ArtistApi(IProductRepository productRepository)
+        {
+            _productRepository = productRepository;
+        }
+
         //-----------------------Arist beat actions--------------------
-        internal List<ProductData> AddProduct(ProductData product)
+        internal async Task AddProduct(ProductData product)
         {
-            if (product != null)
+            if (product == null)
             {
-                _products.Add(product);
+                throw new ArgumentException("Product cannot be null");
             }
 
-            return _products;
+            await _productRepository.AddAsync(product);
         }
 
-        internal List<ProductData> DeleteProduct(int productId)
+        internal async Task DeleteProduct(int productId)
         {
-            ProductData productToRemove = _products.FirstOrDefault(p => p.Id == productId);
-            if (productToRemove!= null)
+            var entity = await _productRepository.GetByIdAsync(productId);
+            if (entity == null)
             {
-                _products.Remove(productToRemove);
+                throw new ArgumentException("Product not found");
             }
-            return _products;
+
+            await _productRepository.DeleteAsync(entity);
         }
 
-        internal List<ProductData> GetProductById(int productId)
+        internal async Task<ProductData> GetProductById(int productId)
         {
-            return new List<ProductData> { _products.FirstOrDefault(p => p.Id == productId) };
-        }
-
-        internal List<ProductData> UpdateProduct(ProductData product)
-        {
-            if (product != null)
+            if (productId < 0)
             {
-                ProductData productToUpdate = _products.FirstOrDefault(p => p.Id == product.Id);
-                if (productToUpdate!= null)
-                {
-                    productToUpdate.Name = product.Name;
-                    productToUpdate.Price = product.Price;
-                    productToUpdate.ArtistId = product.ArtistId;
-                    productToUpdate.Genre = product.Genre;
-                    productToUpdate.ProducerId = product.ProducerId;
-                    productToUpdate.BPM = product.BPM;
-                }
+                throw new ArgumentException("Product Id cannot be less than 0");
             }
-            return _products;
+
+            return await _productRepository.GetByIdAsync(productId);
         }
 
-        internal List<ProductData> GetProducts()
+        internal async Task UpdateProduct(ProductData product)
         {
-            
-            return new List<ProductData>();
+            if (product == null)
+            {
+                throw new ArgumentException("Product cannot be null");
+            }
+
+            var productToUpdate = await _productRepository.GetByIdAsync(product.Id);
+
+            if (productToUpdate != null)
+            {
+                productToUpdate.Name = product.Name;
+                productToUpdate.Price = product.Price;
+                productToUpdate.ArtistId = product.ArtistId;
+                productToUpdate.Genre = product.Genre;
+                productToUpdate.ProducerId = product.ProducerId;
+                productToUpdate.Bpm = product.Bpm;
+            }
+
+            await _productRepository.UpdateAsync(productToUpdate);
         }
 
-        internal List<ProductData> GetProductsByArtist(int artistId)
+        internal async Task<List<ProductData>> GetProducts()
         {
-            return _products;
+            var products = await _productRepository.GetAllAsync();
+            return products.ToList();
         }
 
-        internal List<ProductData> GetProductsByGenre(string genre)
+        internal async Task<List<ProductData>> GetProductsByArtist(int artistId)
         {
-           
-            return _products.Where(p => p.Genre == genre).ToList();
+            if (artistId < 0)
+            {
+                throw new ArgumentException("Artist Id cannot be less than 0");
+            }
+
+            return await _productRepository.GetProductsByArtistAsync(artistId);
         }
 
-        internal List<ProductData> GetProductsByProducer(int producerId)
+        internal async Task<List<ProductData>> GetProductsByGenre(string genre)
         {
-            return _products.Where(p => p.ProducerId == producerId).ToList();
+            if (string.IsNullOrWhiteSpace(genre))
+            {
+                throw new ArgumentException("Scale cannot be empty");
+            }
+            return await _productRepository.GetProductsByGenreAsync(genre);
         }
 
-        internal List<ProductData> GetProductsByBPM(int bpm)
+        internal async Task<List<ProductData>> GetProductsByProducer(int producerId)
         {
-            return _products.Where(p => p.BPM == bpm).ToList();
+            if (producerId < 0)
+            {
+                throw new ArgumentException("Producer Id cannot be less than 0");
+            }
+            return await _productRepository.GetProductsByProducerAsync(producerId);
         }
 
-        internal List<ProductData> GetProductsByScale(string scale)
+        internal async Task<List<ProductData>> GetProductsByBpm(int bpm)
         {
-            return _products.Where(p => p.Scale == scale).ToList();
+            if (bpm < 0)
+            {
+                throw new ArgumentException("BPM cannot be less than  0");
+            }
+            return await _productRepository.GetProductsByBpmAsync(bpm);
         }
 
-        
+        internal async Task<List<ProductData>> GetProductsByScale(string scale)
+        {
+            if (string.IsNullOrWhiteSpace(scale))
+            {
+                throw new ArgumentException("Scale cannot be empty");
+            }
+            return await _productRepository.GetProductsByScaleAsync(scale);
+        }
     }
 }

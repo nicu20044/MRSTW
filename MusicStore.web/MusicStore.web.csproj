@@ -125,6 +125,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ProductData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -156,7 +157,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="ClientApp\src\components\" />
     <Folder Include="ClientApp\src\pages\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MusicStore.BussinesLogic\MusicStore.BussinesLogic.csproj">
