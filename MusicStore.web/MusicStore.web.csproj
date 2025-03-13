@@ -125,6 +125,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\UserAuth.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -156,16 +157,15 @@
     <Folder Include="App_Data\" />
     <Folder Include="ClientApp\src\components\" />
     <Folder Include="ClientApp\src\pages\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">
-      <Project>{6bc0d78a-d9ec-43ad-957f-3e3eacc0cd2d}</Project>
-      <Name>BusinessLogic</Name>
+    <ProjectReference Include="..\MusicStore.BusinessLogic\MusicStore.BussinesLogic.csproj">
+      <Project>{704a35c1-0ba3-4245-a4f6-f54992e2a2dc}</Project>
+      <Name>MusicStore.BussinesLogic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Domain\Domain.csproj">
-      <Project>{b063bae4-5760-43bf-9410-0fc85c28d212}</Project>
-      <Name>Domain</Name>
+    <ProjectReference Include="..\MusicStore.Domain\MusicStore.Domain.csproj">
+      <Project>{bb0fcf7c-01b7-483c-96e9-82146b430971}</Project>
+      <Name>MusicStore.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

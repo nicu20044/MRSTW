@@ -1,17 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6BC0D78A-D9EC-43AD-957F-3E3EACC0CD2D}</ProjectGuid>
+    <ProjectGuid>{BB0FCF7C-01B7-483C-96E9-82146B430971}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BusinessLogic</RootNamespace>
-    <AssemblyName>BusinessLogic</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>MusicStore.Domain</RootNamespace>
+    <AssemblyName>MusicStore.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,24 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessLogic.cs" />
-    <Compile Include="Core\AdminAPI.cs" />
-    <Compile Include="Core\ArtistAPI.cs" />
-    <Compile Include="Core\UserAPI.cs" />
-    <Compile Include="Interfaces\ISession.cs" />
+    <Compile Include="Entities\User\LoginResponse.cs" />
+    <Compile Include="Entities\User\UserLoginData.cs" />
+    <Compile Include="Enums\ProductStatus.cs" />
+    <Compile Include="Enums\UserRoles.cs" />
+    <Compile Include="Products\Bascket\ProductToBascket.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\UserService.cs" />
-    <Compile Include="SessionBL.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Domain\Domain.csproj">
-      <Project>{b063bae4-5760-43bf-9410-0fc85c28d212}</Project>
-      <Name>Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Helpers\Helpers.csproj">
-      <Project>{ba70e5d8-acee-468f-8fc8-3383448aea57}</Project>
-      <Name>Helpers</Name>
+    <ProjectReference Include="..\MusicStore.Helpers\MusicStore.Helpers.csproj">
+      <Project>{f630adc6-442b-413d-b2ca-2c8b70730a8a}</Project>
+      <Name>MusicStore.Helpers</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
