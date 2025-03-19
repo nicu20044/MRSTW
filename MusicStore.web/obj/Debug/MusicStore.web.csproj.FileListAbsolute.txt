@@ -214,7 +214,65 @@ D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MRSTW\MusicStore.web\obj
 D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MRSTW\MusicStore.web\obj\Debug\MusicSto.3AFA109E.Up2Date
 D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MRSTW\MusicStore.web\obj\Debug\MusicStore.web.dll
 D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MRSTW\MusicStore.web\obj\Debug\MusicStore.web.pdb
+<<<<<<< HEAD
 C:\Users\Administrator\Documents\GitHub\MRSTW\MusicStore.web\bin\MusicStore.BussinesLogic.dll
 C:\Users\Administrator\Documents\GitHub\MRSTW\MusicStore.web\bin\MusicStore.Domain.dll
 C:\Users\Administrator\Documents\GitHub\MRSTW\MusicStore.web\bin\MusicStore.BussinesLogic.pdb
 C:\Users\Administrator\Documents\GitHub\MRSTW\MusicStore.web\bin\MusicStore.Domain.pdb
+=======
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\MusicStore.web.dll.config
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\MusicStore.web.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\MusicStore.web.pdb
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\csc.exe
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\csc.exe.config
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\csc.rsp
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\csi.exe
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\csi.exe.config
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\csi.rsp
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\System.Buffers.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\System.Collections.Immutable.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\System.Memory.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\System.Numerics.Vectors.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\vbc.exe
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\vbc.exe.config
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\vbc.rsp
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\VBCSCompiler.exe
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\roslyn\VBCSCompiler.exe.config
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\Microsoft.Web.Infrastructure.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\System.Web.Helpers.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\System.Web.Mvc.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\System.Web.Razor.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\System.Web.WebPages.Deployment.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\System.Web.WebPages.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\System.Web.WebPages.Razor.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\System.Web.Helpers.xml
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\System.Web.Mvc.xml
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\System.Web.Razor.xml
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\System.Web.WebPages.xml
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\System.Web.WebPages.Deployment.xml
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\System.Web.WebPages.Razor.xml
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\obj\Debug\MusicStore.web.csproj.AssemblyReference.cache
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\obj\Debug\MusicStore.web.csproj.CoreCompileInputs.cache
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\obj\Debug\MusicSto.3AFA109E.Up2Date
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\obj\Debug\MusicStore.web.dll
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\obj\Debug\MusicStore.web.pdb
+D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\obj\Debug\MusicStore.web.csprojResolveAssemblyReference.cache
+>>>>>>> 4f1f295 (Add BusinessLogic,Domain,Helpers,Data to separate logic)

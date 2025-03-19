@@ -7,11 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa2f2ae3-8905-4cfb-8778-7a9edc94b0f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MusicStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MusicStore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.helpers/MusicStore.helpers.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.helpers/Properties/AssemblyInfo.cs" beforeDir="false" />
-    </list>
+    <list default="true" id="aa2f2ae3-8905-4cfb-8778-7a9edc94b0f8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +22,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="test-branch" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
