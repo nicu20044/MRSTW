@@ -214,12 +214,6 @@ D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MRSTW\MusicStore.web\obj
 D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MRSTW\MusicStore.web\obj\Debug\MusicSto.3AFA109E.Up2Date
 D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MRSTW\MusicStore.web\obj\Debug\MusicStore.web.dll
 D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MRSTW\MusicStore.web\obj\Debug\MusicStore.web.pdb
-<<<<<<< HEAD
-C:\Users\Administrator\Documents\GitHub\MRSTW\MusicStore.web\bin\MusicStore.BussinesLogic.dll
-C:\Users\Administrator\Documents\GitHub\MRSTW\MusicStore.web\bin\MusicStore.Domain.dll
-C:\Users\Administrator\Documents\GitHub\MRSTW\MusicStore.web\bin\MusicStore.BussinesLogic.pdb
-C:\Users\Administrator\Documents\GitHub\MRSTW\MusicStore.web\bin\MusicStore.Domain.pdb
-=======
 D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\MusicStore.web.dll.config
 D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\MusicStore.web.dll
 D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\bin\MusicStore.web.pdb
@@ -275,4 +269,3 @@ D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\obj\Debug
 D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\obj\Debug\MusicStore.web.dll
 D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\obj\Debug\MusicStore.web.pdb
 D:\Universitate anul 2\Semestrul 2\TW\Online_Music_Shop\MusicStore.web\obj\Debug\MusicStore.web.csprojResolveAssemblyReference.cache
->>>>>>> 4f1f295 (Add BusinessLogic,Domain,Helpers,Data to separate logic)
