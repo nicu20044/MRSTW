@@ -1,0 +1,248 @@
+Index: MusicStore.sln
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\nMicrosoft Visual Studio Solution File, Format Version 12.00\r\n# Visual Studio Version 17\r\nVisualStudioVersion = 17.12.35707.178\r\nMinimumVisualStudioVersion = 10.0.40219.1\r\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"MusicStore.web\", \"MusicStore.web\\MusicStore.web.csproj\", \"{CFBCC852-27B8-4133-AB36-5F0283F27404}\"\r\nEndProject\r\nProject(\"{2150E333-8FDC-42A3-9474-1A3956D46DE8}\") = \"Solution Items\", \"Solution Items\", \"{3C010515-C856-45DC-9E8C-01FCB0D8205A}\"\r\nEndProject\r\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"MusicStore.BussinesLogic\", \"MusicStore.BussinesLogic\\MusicStore.BussinesLogic.csproj\", \"{F90D1063-9BBE-452E-97C5-786306C3DB7C}\"\r\nEndProject\r\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"MusicStore.Domain\", \"MusicStore.Domain\\MusicStore.Domain.csproj\", \"{5C5681B7-9076-4237-8624-CCCE59679880}\"\r\nEndProject\r\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"MusicStore.helpers\", \"MusicStore.helpers\\MusicStore.helpers.csproj\", \"{4138F475-15E5-4775-AEB6-FBAC0A8ADD56}\"\r\nEndProject\r\nGlobal\r\n\tGlobalSection(SolutionConfigurationPlatforms) = preSolution\r\n\t\tDebug|Any CPU = Debug|Any CPU\r\n\t\tRelease|Any CPU = Release|Any CPU\r\n\tEndGlobalSection\r\n\tGlobalSection(ProjectConfigurationPlatforms) = postSolution\r\n\t\t{CFBCC852-27B8-4133-AB36-5F0283F27404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU\r\n\t\t{CFBCC852-27B8-4133-AB36-5F0283F27404}.Debug|Any CPU.Build.0 = Debug|Any CPU\r\n\t\t{CFBCC852-27B8-4133-AB36-5F0283F27404}.Release|Any CPU.ActiveCfg = Release|Any CPU\r\n\t\t{CFBCC852-27B8-4133-AB36-5F0283F27404}.Release|Any CPU.Build.0 = Release|Any CPU\r\n\t\t{F90D1063-9BBE-452E-97C5-786306C3DB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU\r\n\t\t{F90D1063-9BBE-452E-97C5-786306C3DB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU\r\n\t\t{F90D1063-9BBE-452E-97C5-786306C3DB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU\r\n\t\t{F90D1063-9BBE-452E-97C5-786306C3DB7C}.Release|Any CPU.Build.0 = Release|Any CPU\r\n\t\t{5C5681B7-9076-4237-8624-CCCE59679880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU\r\n\t\t{5C5681B7-9076-4237-8624-CCCE59679880}.Debug|Any CPU.Build.0 = Debug|Any CPU\r\n\t\t{5C5681B7-9076-4237-8624-CCCE59679880}.Release|Any CPU.ActiveCfg = Release|Any CPU\r\n\t\t{5C5681B7-9076-4237-8624-CCCE59679880}.Release|Any CPU.Build.0 = Release|Any CPU\r\n\t\t{4138F475-15E5-4775-AEB6-FBAC0A8ADD56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU\r\n\t\t{4138F475-15E5-4775-AEB6-FBAC0A8ADD56}.Debug|Any CPU.Build.0 = Debug|Any CPU\r\n\t\t{4138F475-15E5-4775-AEB6-FBAC0A8ADD56}.Release|Any CPU.ActiveCfg = Release|Any CPU\r\n\t\t{4138F475-15E5-4775-AEB6-FBAC0A8ADD56}.Release|Any CPU.Build.0 = Release|Any CPU\r\n\tEndGlobalSection\r\n\tGlobalSection(SolutionProperties) = preSolution\r\n\t\tHideSolutionNode = FALSE\r\n\tEndGlobalSection\r\nEndGlobal\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MusicStore.sln b/MusicStore.sln
+--- a/MusicStore.sln	(revision 5eb2e2f42a959165dba9c32e5afa1a02e02a1289)
++++ b/MusicStore.sln	(date 1742416961408)
+@@ -3,8 +3,6 @@
+ # Visual Studio Version 17
+ VisualStudioVersion = 17.12.35707.178
+ MinimumVisualStudioVersion = 10.0.40219.1
+-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.web", "MusicStore.web\MusicStore.web.csproj", "{CFBCC852-27B8-4133-AB36-5F0283F27404}"
+-EndProject
+ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C010515-C856-45DC-9E8C-01FCB0D8205A}"
+ EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.BussinesLogic", "MusicStore.BussinesLogic\MusicStore.BussinesLogic.csproj", "{F90D1063-9BBE-452E-97C5-786306C3DB7C}"
+@@ -19,10 +17,6 @@
+ 		Release|Any CPU = Release|Any CPU
+ 	EndGlobalSection
+ 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+-		{CFBCC852-27B8-4133-AB36-5F0283F27404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+-		{CFBCC852-27B8-4133-AB36-5F0283F27404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+-		{CFBCC852-27B8-4133-AB36-5F0283F27404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+-		{CFBCC852-27B8-4133-AB36-5F0283F27404}.Release|Any CPU.Build.0 = Release|Any CPU
+ 		{F90D1063-9BBE-452E-97C5-786306C3DB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+ 		{F90D1063-9BBE-452E-97C5-786306C3DB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ 		{F90D1063-9BBE-452E-97C5-786306C3DB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+Index: MusicStore.web.csproj
+===================================================================
+diff --git a/MusicStore.web.csproj b/MusicStore.web.csproj
+new file mode 100644
+--- /dev/null	(date 1742416980540)
++++ b/MusicStore.web.csproj	(date 1742416980540)
+@@ -0,0 +1,210 @@
++<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
++  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
++  <PropertyGroup>
++    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
++    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
++    <ProductVersion>
++    </ProductVersion>
++    <SchemaVersion>2.0</SchemaVersion>
++    <ProjectGuid>{CFBCC852-27B8-4133-AB36-5F0283F27404}</ProjectGuid>
++    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
++    <OutputType>Library</OutputType>
++    <AppDesignerFolder>Properties</AppDesignerFolder>
++    <RootNamespace>MusicStore.web</RootNamespace>
++    <AssemblyName>MusicStore.web</AssemblyName>
++    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
++    <UseIISExpress>true</UseIISExpress>
++    <Use64BitIISExpress />
++    <IISExpressSSLPort>44335</IISExpressSSLPort>
++    <IISExpressAnonymousAuthentication />
++    <IISExpressWindowsAuthentication />
++    <IISExpressUseClassicPipelineMode />
++    <UseGlobalApplicationHostFile />
++    <NuGetPackageImportStamp>
++    </NuGetPackageImportStamp>
++  </PropertyGroup>
++  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
++    <DebugSymbols>true</DebugSymbols>
++    <DebugType>full</DebugType>
++    <Optimize>false</Optimize>
++    <OutputPath>bin\</OutputPath>
++    <DefineConstants>DEBUG;TRACE</DefineConstants>
++    <ErrorReport>prompt</ErrorReport>
++    <WarningLevel>4</WarningLevel>
++  </PropertyGroup>
++  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
++    <DebugSymbols>true</DebugSymbols>
++    <DebugType>pdbonly</DebugType>
++    <Optimize>true</Optimize>
++    <OutputPath>bin\</OutputPath>
++    <DefineConstants>TRACE</DefineConstants>
++    <ErrorReport>prompt</ErrorReport>
++    <WarningLevel>4</WarningLevel>
++  </PropertyGroup>
++  <ItemGroup>
++    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
++      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\lib\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
++    </Reference>
++    <Reference Include="Microsoft.CSharp" />
++    <Reference Include="System.Web.DynamicData" />
++    <Reference Include="System.Web.Entity" />
++    <Reference Include="System.Web.ApplicationServices" />
++    <Reference Include="System.ComponentModel.DataAnnotations" />
++    <Reference Include="System" />
++    <Reference Include="System.Data" />
++    <Reference Include="System.Core" />
++    <Reference Include="System.Data.DataSetExtensions" />
++    <Reference Include="System.Web.Extensions" />
++    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
++      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.3.0\lib\net45\System.Web.Helpers.dll</HintPath>
++    </Reference>
++    <Reference Include="System.Web.Mvc, Version=5.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
++      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.3.0\lib\net45\System.Web.Mvc.dll</HintPath>
++    </Reference>
++    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
++      <HintPath>..\packages\Microsoft.AspNet.Razor.3.3.0\lib\net45\System.Web.Razor.dll</HintPath>
++    </Reference>
++    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
++      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.3.0\lib\net45\System.Web.WebPages.dll</HintPath>
++    </Reference>
++    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
++      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.3.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
++    </Reference>
++    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
++      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.3.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
++    </Reference>
++    <Reference Include="System.Xml.Linq" />
++    <Reference Include="System.Drawing" />
++    <Reference Include="System.Web" />
++    <Reference Include="System.Xml" />
++    <Reference Include="System.Configuration" />
++    <Reference Include="System.Web.Services" />
++    <Reference Include="System.EnterpriseServices" />
++  </ItemGroup>
++  <ItemGroup>
++    <Reference Include="Microsoft.Web.Infrastructure">
++      <HintPath>..\packages\Microsoft.Web.Infrastructure.2.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
++    </Reference>
++  </ItemGroup>
++  <ItemGroup>
++    <Content Include="Content\Site.css" />
++    <Content Include="Global.asax" />
++    <Content Include="Views\Library\Library.cshtml" />
++    <Content Include="Web.config" />
++    <Content Include="wwwroot\css\Admin.css" />
++    <Content Include="wwwroot\css\auth.css" />
++    <Content Include="wwwroot\css\library.css" />
++    <Content Include="wwwroot\css\payment-page.css" />
++    <Content Include="wwwroot\css\productpage.css" />
++    <Content Include="wwwroot\css\shopping-cart.css" />
++    <Content Include="wwwroot\css\site.css" />
++    <Content Include="wwwroot\css\styles.css" />
++    <Content Include="wwwroot\images\mute.png" />
++    <Content Include="wwwroot\images\pause.png" />
++    <Content Include="wwwroot\images\play.png" />
++    <Content Include="wwwroot\images\stop.png" />
++    <Content Include="wwwroot\images\test.jpg" />
++    <Content Include="wwwroot\images\volume.png" />
++    <Content Include="wwwroot\js\Admin.js" />
++    <Content Include="wwwroot\js\payment_page.js" />
++    <Content Include="wwwroot\js\product_Page.js" />
++    <Content Include="wwwroot\js\shopping_cart.js" />
++    <Content Include="wwwroot\js\site.js" />
++    <Content Include="wwwroot\Music\black.mp3" />
++    <Content Include="wwwroot\Music\Ce.mp3" />
++    <Content Include="wwwroot\Music\white.mp3" />
++  </ItemGroup>
++  <ItemGroup>
++    <Compile Include="App_Start\RouteConfig.cs" />
++    <Compile Include="Controllers\AdminController.cs" />
++    <Compile Include="Controllers\HomeController.cs" />
++    <Compile Include="Controllers\LibraryController.cs" />
++    <Compile Include="Controllers\AuthController.cs" />
++    <Compile Include="Controllers\ProductController.cs" />
++    <Compile Include="Controllers\ShoppingCartController.cs" />
++    <Compile Include="Global.asax.cs">
++      <DependentUpon>Global.asax</DependentUpon>
++    </Compile>
++    <Compile Include="Models\UserAuth.cs" />
++    <Compile Include="Properties\AssemblyInfo.cs" />
++  </ItemGroup>
++  <ItemGroup>
++    <Content Include="Views\web.config" />
++    <None Include="packages.config" />
++    <Content Include="Views\_ViewStart.cshtml" />
++    <Content Include="Views\Shared\_Layout.cshtml" />
++    <Content Include="Views\Home\Index.cshtml" />
++    <Content Include="Views\Home\AboutUs.cshtml" />
++    <Content Include="Views\Auth\Login.cshtml" />
++    <Content Include="Views\Auth\Register.cshtml" />
++    <Content Include="Views\ShoppingCart\Subscribtion.cshtml" />
++    <Content Include="Views\ShoppingCart\PaymentPage.cshtml" />
++    <Content Include="Views\Admin\Admin.cshtml" />
++    <Content Include="Views\Admin\ManageUsers.cshtml" />
++    <Content Include="Views\Admin\ManageContent.cshtml" />
++    <Content Include="Views\Shared\_Footer.cshtml" />
++    <Content Include="Views\Shared\_Header.cshtml" />
++    <Content Include="Views\Product\ProductPage.cshtml" />
++    <Content Include="Views\ShoppingCart\ShoppingCart.cshtml" />
++    <None Include="Web.Debug.config">
++      <DependentUpon>Web.config</DependentUpon>
++    </None>
++    <None Include="Web.Release.config">
++      <DependentUpon>Web.config</DependentUpon>
++    </None>
++  </ItemGroup>
++  <ItemGroup>
++    <Folder Include="App_Data\" />
++    <Folder Include="ClientApp\src\components\" />
++    <Folder Include="ClientApp\src\pages\" />
++  </ItemGroup>
++  <ItemGroup>
++    <ProjectReference Include="..\MusicStore.BusinessLogic\MusicStore.BussinesLogic.csproj">
++      <Project>{704a35c1-0ba3-4245-a4f6-f54992e2a2dc}</Project>
++      <Name>MusicStore.BussinesLogic</Name>
++    </ProjectReference>
++    <ProjectReference Include="..\MusicStore.Domain\MusicStore.Domain.csproj">
++      <Project>{bb0fcf7c-01b7-483c-96e9-82146b430971}</Project>
++      <Name>MusicStore.Domain</Name>
++    </ProjectReference>
++  </ItemGroup>
++  <PropertyGroup>
++    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
++    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
++  </PropertyGroup>
++  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
++  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
++  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
++  <ProjectExtensions>
++    <VisualStudio>
++      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
++        <WebProjectProperties>
++          <UseIIS>True</UseIIS>
++          <AutoAssignPort>True</AutoAssignPort>
++          <DevelopmentServerPort>53071</DevelopmentServerPort>
++          <DevelopmentServerVPath>/</DevelopmentServerVPath>
++          <IISUrl>https://localhost:44335/</IISUrl>
++          <NTLMAuthentication>False</NTLMAuthentication>
++          <UseCustomServer>False</UseCustomServer>
++          <CustomServerUrl>
++          </CustomServerUrl>
++          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
++        </WebProjectProperties>
++      </FlavorProperties>
++    </VisualStudio>
++  </ProjectExtensions>
++  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" />
++  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
++    <PropertyGroup>
++      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
++    </PropertyGroup>
++    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
++  </Target>
++  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
++       Other similar extension points exist, see Microsoft.Common.targets.
++  <Target Name="BeforeBuild">
++  </Target>
++  <Target Name="AfterBuild">
++  </Target>
++  -->
++</Project>
+\ No newline at end of file
