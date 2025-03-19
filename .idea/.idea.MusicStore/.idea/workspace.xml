@@ -8,28 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa2f2ae3-8905-4cfb-8778-7a9edc94b0f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MusicStore.BussinesLogic/Data/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MusicStore.BussinesLogic/Data/Repositories/Interfaces/IGenericRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MusicStore.BussinesLogic/Data/Repositories/Interfaces/IProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MusicStore.BussinesLogic/Data/Repositories/ProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MusicStore.web/Models/ProductData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MusicStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MusicStore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.BussinesLogic/BussinesLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.BussinesLogic/BussinesLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.BussinesLogic/Core/UserArtist/ArtistApi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.BussinesLogic/Core/UserArtist/ArtistApi.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.BussinesLogic/Interfaces/IProduct.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.BussinesLogic/Interfaces/IProduct.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.BussinesLogic/MusicStore.BussinesLogic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.BussinesLogic/MusicStore.BussinesLogic.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.BussinesLogic/ProductBL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.BussinesLogic/ProductBL.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.Domain/Entities/Product/ProductData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.Domain/Entities/Product/ProductData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/Controllers/LibraryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/Controllers/LibraryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/MusicStore.web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/MusicStore.web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/bin/MusicStore.web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/bin/MusicStore.web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/bin/MusicStore.web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/bin/MusicStore.web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicStore.web/wwwroot/js/product_Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/wwwroot/js/product_Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicStore.helpers/MusicStore.helpers.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicStore.helpers/Properties/AssemblyInfo.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +50,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="BusinessLogic" />
-                    <option name="lastUsedInstant" value="1741800121" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1741879450" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1741800120" />
+                    <option name="branchName" value="BusinessLogic" />
+                    <option name="lastUsedInstant" value="1741800121" />
                   </RecentBranch>
                 </list>
               </option>
@@ -93,6 +74,8 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MusicStore.BussinesLogic/BussinesLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Administrator/Documents/GitHub/MRSTW/MusicStore.BussinesLogic/Core/UserArtist/ArtistApi.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MusicStore.web/Controllers/LibraryController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -109,7 +92,7 @@
     &quot;.NET Project.MusicStore.web - IIS Express.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;BusinessLogic&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
@@ -157,6 +140,8 @@
       <workItem from="1741865762568" duration="246000" />
       <workItem from="1741869620981" duration="767000" />
       <workItem from="1741877368211" duration="1284000" />
+      <workItem from="1742396931388" duration="78000" />
+      <workItem from="1742397033238" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="Adding BusinessLogic for Product">
       <option name="closed" value="true" />
