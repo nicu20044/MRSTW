@@ -1,19 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-<<<<<<< HEAD
-# Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.web", "MusicStore.web\MusicStore.web.csproj", "{CFBCC852-27B8-4133-AB36-5F0283F27404}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C010515-C856-45DC-9E8C-01FCB0D8205A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.BussinesLogic", "MusicStore.BussinesLogic\MusicStore.BussinesLogic.csproj", "{F90D1063-9BBE-452E-97C5-786306C3DB7C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.Domain", "MusicStore.Domain\MusicStore.Domain.csproj", "{5C5681B7-9076-4237-8624-CCCE59679880}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.helpers", "MusicStore.helpers\MusicStore.helpers.csproj", "{4138F475-15E5-4775-AEB6-FBAC0A8ADD56}"
-=======
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -35,7 +21,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", 
 		GenericRepository.cs = GenericRepository.cs
 		IGenericRepository.cs = IGenericRepository.cs
 	EndProjectSection
->>>>>>> 4f1f295 (Add BusinessLogic,Domain,Helpers,Data to separate logic)
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
