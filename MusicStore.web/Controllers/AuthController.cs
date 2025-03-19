@@ -1,25 +1,14 @@
-﻿using System.Web;
-using System;
-using System.ServiceModel.Channels;
 using System.Web.Mvc;
-using MusicStore.BusinessLogic;
-using MusicStore.BusinessLogic.Interfaces;
-using MusicStore.web.Models;
-using MusicStore.Domain.Entities.User;
-
-using AutoMapper;
-
+using BusinessLogic.Interfaces;
 
 namespace MusicStore.web.Controllers
 {
     public class AuthController : Controller
     {
         private readonly ISession _sessionService;
-
-        public AuthController()
+        public AuthController(ISession sessionService)
         {
-            var bl = new BussinesLogic();
-            _sessionService = bl.GetSessionBL();
+            _sessionService = sessionService;
         }
 
         public ActionResult Login()
@@ -28,9 +17,18 @@ namespace MusicStore.web.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        public ActionResult Login(string email, string password)
+        {
+            if (email == "test@mail.com" && password == "password")
+            {
+                var token = _sessionService.GenerateSessionToken(1);
+                return Json(new { Token = token });
+            }
 
-        public ActionResult Login(UserAuth login)
+            return new HttpStatusCodeResult(401, "Unauthorized");
+        }
+
+        public ActionResult Register()
         {
             if (ModelState.IsValid)
             {
