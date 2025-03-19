@@ -401,3 +401,4 @@ FodyWeavers.xsd
 *.sln.iml
 MusicStore.web/bin/
 MusicStore.web/obj/
+.idea/.idea.MusicStore/.idea/workspace.xml
