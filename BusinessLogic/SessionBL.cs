@@ -29,7 +29,7 @@ namespace BusinessLogic.Services
             }
         }
 
-        private string GenerateSecureToken()
+        public string GenerateSecureToken()
         {
             using (var rng = new RNGCryptoServiceProvider())
             {
@@ -37,6 +37,11 @@ namespace BusinessLogic.Services
                 rng.GetBytes(randomBytes);
                 return Convert.ToBase64String(randomBytes);
             }
+        }
+
+        public bool ValidateSessionToken(string token)
+        {
+            return _sessionTokens.ContainsValue(token);
         }
     }
 }

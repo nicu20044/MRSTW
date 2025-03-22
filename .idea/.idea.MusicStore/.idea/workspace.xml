@@ -8,24 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa2f2ae3-8905-4cfb-8778-7a9edc94b0f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BusinessLogic/BussinesLogic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BusinessLogic/Core/UserArtist/ArtistApi.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BusinessLogic/Data/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BusinessLogic/Data/Repositories/Interfaces/IGenericRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BusinessLogic/Data/Repositories/Interfaces/IProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BusinessLogic/Data/Repositories/ProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BusinessLogic/Interfaces/IProduct.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BusinessLogic/ProductBL.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Entities/Enums/PLicense.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Entities/Product/ProductData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BusinessLogic/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BusinessLogic/Core/AdminUser/AdminApi.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BusinessLogic/Core/UserListener/ListenerUserApi.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BusinessLogic/Data/Repositories/Interfaces/IUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BusinessLogic/Data/Repositories/UserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BusinessLogic/Interfaces/IAuthService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BusinessLogic/Services/AuthService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Entities/User/ApplicationUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Entities/User/ULoginResponse.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MusicStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MusicStore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BusinessLogic/BusinessLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BusinessLogic/BusinessLogic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/BusinessLogic.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BusinessLogic/Core/AdminAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BusinessLogic/Core/ArtistAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BusinessLogic/Core/UserAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/User/ULoginData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/User/ULoginData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/Core/UserArtist/ArtistApi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/Core/UserArtist/ArtistApi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/Data/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessLogic/SessionBL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessLogic/SessionBL.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MusicStore.web/obj/Debug/MusicStore.web.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,12 +86,12 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/nicu20044/MRSTW.git&quot;,
-    &quot;accountId&quot;: &quot;11f33398-388f-47cb-a2ab-1e3de48d68c0&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nicu20044/MRSTW.git",
+    "accountId": "4c81193b-e9d2-4144-814d-5091d922d160"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/Administrator/Documents/GitHub/MRSTW/.idea/config/applicationhost.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Administrator/Documents/GitHub/MRSTW/.idea/config/applicationhost.config" root0="FORCE_HIGHLIGHTING" />
@@ -127,7 +124,13 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "list.type.of.created.stylesheet": "CSS",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
@@ -175,6 +178,7 @@
       <workItem from="1741877368211" duration="1284000" />
       <workItem from="1742396931388" duration="78000" />
       <workItem from="1742397033238" duration="14000" />
+      <workItem from="1742584203248" duration="8636000" />
     </task>
     <task id="LOCAL-00001" summary="Adding BusinessLogic for Product">
       <option name="closed" value="true" />
@@ -194,6 +198,9 @@
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />

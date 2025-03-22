@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BusinessLogic.Services;
+using Domain.Entities.User;
 using MusicStore.BusinessLogic.Data;
 using MusicStore.Domain.Entities.Product;
 
@@ -11,9 +13,10 @@ namespace MusicStore.BusinessLogic.Core.UserArtist
     {
         private readonly IProductRepository _productRepository;
 
-        public ArtistApi(IProductRepository productRepository)
+        public ArtistApi(IProductRepository productRepository,AuthService authService)
         {
             _productRepository = productRepository;
+            _authService = authService;
         }
 
         //-----------------------Arist beat actions--------------------
@@ -120,6 +123,15 @@ namespace MusicStore.BusinessLogic.Core.UserArtist
                 throw new ArgumentException("Scale cannot be empty");
             }
             return await _productRepository.GetProductsByScaleAsync(scale);
+        }
+        
+        
+        //-----------------------Artist Authentication--------------------
+        private readonly AuthService _authService;
+        
+        public async Task<ULoginResponse> LoginActionAsync(ULoginData data)
+        {
+            return await _authService.UserLoginActionAsync(data);
         }
     }
 }
